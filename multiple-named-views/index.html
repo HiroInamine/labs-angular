@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app="myapp">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Sample</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container">
+
+
+  <div ui-view="header"></div>
+  <div ui-view="container"></div>
+  <div ui-view="footer"></div>
+
+
+
+  <!-- Angular -->
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+  <!-- UI-Router -->
+  <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+  <script src="./main.js"></script>
+  <script src="./controllers.js"></script>
+</body>
+
+</html>
